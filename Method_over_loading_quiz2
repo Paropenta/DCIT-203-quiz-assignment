@@ -1,0 +1,21 @@
+
+	public double  calculateClassAverage(int score1,int score2 ){
+	  double average=(score1 + score 2)/2.0
+	  return average;
+	    }
+	 public double calculateClassAverage(int score1,int score2, int score3){
+
+	     double average=(score1+score2+score3)/3.0
+	     return average;
+	     }
+	  public double calculateClassAverage(int[] scores){
+	      int[] arr = {4, 6, 8, 10};
+          int sum = 0;
+
+    for(int i = 0; i < arr.length; i++){
+    sum += arr[i];
+}
+
+double average = (double) sum / arr.length;
+
+	  }
